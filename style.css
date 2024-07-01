@@ -1,0 +1,28 @@
+li:first-child {
+  color: crimson;
+}
+li:last-child {
+  color: blue;
+}
+li:hover {
+  background-color: darkblue;
+}
+li:nth-child(3n) {
+  color: yellow;
+}
+li:nth-child(even) {
+  color: green;
+}
+li:nth-child(odd):hover {
+  background-color: chocolate;
+}
+a:focus:not([class="A4"]) {
+  background-color: black;
+  color: red;
+}
+a:visited {
+  color: burlywood;
+}
+a:link {
+  color: black;
+}
